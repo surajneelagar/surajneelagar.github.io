@@ -351,6 +351,17 @@ section {
   margin-bottom: 0;
 }
 
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.icons {
+  width: 70px; /* Adjust as needed */
+  height: auto;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
