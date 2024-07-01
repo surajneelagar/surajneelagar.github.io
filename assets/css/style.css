@@ -455,7 +455,7 @@ section {
   transition: inherit;
 }
 
-.active::before {
+#download-button.active::before {
   animation-name: check;
   animation-duration: 1s;
   animation-iteration-count: 2;
@@ -464,7 +464,7 @@ section {
   animation-delay: 0.3s;
 }
 
-.active::after {
+#download-button.active::after {
   right: -10%;
   animation-name: goaway;
   animation-duration: 1s;
@@ -474,7 +474,7 @@ section {
   animation-delay: 0.3s;
 }
 
-.active {
+#download-button.active {
   border: none;
   animation-name: shrink;
   animation-duration: 1s;
