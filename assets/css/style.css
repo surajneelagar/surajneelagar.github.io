@@ -424,12 +424,12 @@ section {
   top: 40px;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 280px;
-  height: 76px;
+  width: 180px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid #a5a5a5;
+  border: 3px solid #728394;
   overflow: hidden;
   transition: 0.3s;
 }
@@ -437,8 +437,8 @@ section {
 #download-button::before {
   display: block;
   content: 'DOWNLOAD';
-  color: #a5a5a5;
-  letter-spacing: 4px;
+  color: #0563bb;
+  letter-spacing: 3px;
   font-weight: 200;
   opacity: 1;
 }

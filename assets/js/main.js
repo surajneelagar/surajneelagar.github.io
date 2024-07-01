@@ -249,6 +249,14 @@
     }
   });
 
+  var element = document.getElementById('download-button');
+
+element.addEventListener('click', function(e) {
+    e.preventDefault();
+    element.classList.toggle('active');
+});
+
+
   /**
    * Animation on scroll
    */
