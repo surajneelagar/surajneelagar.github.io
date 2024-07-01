@@ -351,17 +351,72 @@ section {
   margin-bottom: 0;
 }
 
- /* .icons-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-        }
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
 
-        .icons {
-            width: 50px; 
-            height: auto;
-        } */
+.icons {
+  width: 70px;
+  height: auto;
+  margin: 10px;
+}
+
+@media (max-width: 1200px) {
+  .icons {
+      width: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .icons {
+      width: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .icons {
+      width: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .icon-container {
+      justify-content: center;
+  }
+
+  .icons {
+      width: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .icon-container {
+      justify-content: space-around;
+  }
+
+  .icons {
+      width: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .icon-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .icons {
+      width: 40px;
+      margin: 5px;
+  }
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
