@@ -421,6 +421,7 @@ section {
 
 #download-button {
   position: relative;
+  cursor: pointer;
   top: 40px;
   left: 50%;
   transform: translate(-50%, -50%);
