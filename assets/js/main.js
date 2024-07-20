@@ -270,3 +270,12 @@ element.addEventListener('click', function(e) {
   });
 
 })()
+
+function downloadPDF() {
+  const link = document.createElement('a');
+  link.href = '../Suraj_S_N(CV).pdf';  // Replace with the actual path to your PDF
+  link.download = 'Suraj_S_N(CV).pdf';          // This will be the default name for the downloaded file
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
