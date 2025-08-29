@@ -279,3 +279,4 @@ function downloadPDF() {
   link.click();
   document.body.removeChild(link);
 }
+
